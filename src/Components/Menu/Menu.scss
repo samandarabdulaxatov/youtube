@@ -1,0 +1,28 @@
+.menu__modal{
+   display: block;   
+   top: 85px;
+   left: 0;
+   width: 100%;
+   max-width: 255px;
+   height: calc(100vh -85px);
+   padding: 10px;
+   overflow: auto;
+   transition: transform 2s ease;
+
+   &.close{
+      transform: translateX(-255px);
+   }
+
+   &::-webkit-scrollbar{
+      width: 12px;
+   }
+
+   &::-webkit-scrollbar-track{
+      background: #f1f1f1;
+   }
+
+   &::-webkit-scrollbar-thumb{
+      background: #888;
+      border-radius: 10px;
+   }
+}

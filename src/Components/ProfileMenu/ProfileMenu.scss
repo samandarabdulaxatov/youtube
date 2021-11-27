@@ -1,0 +1,43 @@
+.profile-menu__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 250px;
+	margin: 0;
+  margin-left: auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+.profile-menu__item {
+	display: block;
+	width: 50px;
+	align-items: center;
+	text-align: center;
+}
+
+.profile-menu__btn {
+	width: 50px;
+	display: inline-block;
+	background-color: transparent;
+	border: none;
+	text-align: center;
+}
+
+.profile-menu__img {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 900px ){
+
+	.profile-menu__list{
+		margin-left: 250px;
+	}
+}
+
+@media only screen and (max-width: 610px ){
+
+	.profile-menu__list{
+		margin-left: 200px;
+	}
+}

@@ -1,0 +1,116 @@
+.channel {
+	width: 100px;
+	width: 1300px;
+	padding-top: 310px;
+	background-image: url('../../Assets//Image/Cover.png');
+	background-repeat: no-repeat;
+	background-size: 1200px 280px;
+}
+
+.single-user__name {
+	display: block;
+	margin: 0;
+	margin-left: 15px;
+}
+
+.user__name--margin {
+	margin: 0;
+}
+
+.subscribed-num {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #c2c2c2;
+}
+
+.single-user__box {
+	display: flex;
+	margin: 0;
+	margin-left: auto;
+}
+
+.single-user__menu {
+	display: flex;
+	margin: 0;
+}
+
+.single-user__rec-box {
+	display: block;
+	margin: 0;
+	margin-left: auto;
+}
+
+.single-user__rec-heading {
+	display: block;
+	margin: 0;
+	margin-bottom: 30px;
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #c2c2c2;
+}
+
+.single-user__video-box {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.single-user__video-info {
+	display: block;
+	margin: 0;
+	margin-left: 35px;
+}
+
+.single-user__video-title {
+	display: block;
+	margin: 0;
+	margin-bottom: 10px;
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 34px;
+	color: #19202c;
+}
+
+.single-user__video-describtion {
+	display: block;
+	margin: 0;
+	margin-bottom: 30px;
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+	mix-blend-mode: normal;
+	opacity: 0.6;
+}
+
+.single-user__video-views-about {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #c2c2c2;
+}
+
+.slider__btn {
+	display: block;
+	width: 250px;
+	height: 150px;
+	background-color: #fff;
+	border: none;
+}
+
+.slider__btn + .slider__btn {
+	display: block;
+	margin-left: 40px;
+}

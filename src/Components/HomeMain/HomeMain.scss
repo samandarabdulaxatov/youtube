@@ -1,0 +1,24 @@
+.main{
+	display: flex;
+	width: 100%;
+	margin-top: 100px;	
+}
+
+.content {
+	width: 100%;
+	max-width: calc(100% -255px);
+	height: calc(100vh -85px);
+	padding: 30px;
+	transform: translateX(255px);
+	transition: transform 2s ease;
+
+	&.contain {
+		max-width: 100%;
+		transform: translateX(0);
+	}
+
+	&.open {
+		transform: translateX(-255px);
+		transition: transform 2s ease;
+	}
+}

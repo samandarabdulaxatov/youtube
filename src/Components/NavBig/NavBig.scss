@@ -1,0 +1,46 @@
+.nav {
+	display: block;
+	margin: 0;
+	margin-bottom: 60px;
+	padding: 0;
+}
+
+.nav__list {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav__item {
+	display: block;
+	margin: 0;
+	margin-bottom: 29px;
+	padding: 0;
+
+	&--opacity{
+		opacity: 0.5;
+	}
+}
+
+.nav__link {
+	display: inline-block;
+	margin: 0;
+	margin-left: 10px;
+	padding: 2px;
+	text-decoration: none;
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+   color: #898989;
+
+   &.active{
+      color: #FF0000;
+   }
+
+	&--color{
+		color: black;
+	}
+}

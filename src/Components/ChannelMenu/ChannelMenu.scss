@@ -1,0 +1,33 @@
+.single-user__menu-list {
+	display: flex;
+	margin: 0;
+   margin-bottom: 60px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.single-user__menu-item {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.single-user__menu-item + .single-user__menu-item {
+	margin: 0;
+	margin-left: 60px;
+}
+
+.single-user__menu-link {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #000000;
+	text-decoration: none;
+
+	&.active {
+		color: red;
+		border-bottom: solid 2px red;
+	}
+}
